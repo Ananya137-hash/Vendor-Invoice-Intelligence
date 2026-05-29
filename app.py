@@ -14,7 +14,19 @@ st.set_page_config(
     page_icon="📦",
     layout="wide"
 )
-
+# -------------------------------------------------------
+# Hide Streamlit Default UI (Running Man, Header, Footer)
+# -------------------------------------------------------
+hide_st_style = """
+            <style>
+            /* Hide ONLY the running man status indicator */
+            [data-testid="stStatusWidget"] {visibility: hidden;}
+            
+            /* Hide the Streamlit watermark footer */
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_st_style, unsafe_allow_html=True)
 # -------------------------------------------------------
 # Header Section
 # -------------------------------------------------------
