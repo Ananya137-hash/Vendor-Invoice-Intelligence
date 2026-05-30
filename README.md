@@ -36,8 +36,8 @@ Built entirely with Python, this project bridges the gap between raw database re
 - Freight is a major, fluctuating component of landed cost.
 - Accurate early predictions improve procurement planning, budgeting, and leverage during vendor negotiations.
 
-*(Add a screenshot of your freight prediction UI here: `![](images/freight_prediction.png)`)*
-
+*(Add a screenshot of your freight prediction UI here: 
+![](images/freight_prediction.pngimages)')*
 ---
 
 ### 2. Invoice Risk Flagging (Classification)
@@ -49,7 +49,8 @@ Built entirely with Python, this project bridges the gap between raw database re
 - Financial leakage and compliance risks often hide inside large, complex invoices.
 - This automated flagging system lets finance teams focus strictly on high-risk anomalies while allowing standard invoices to process automatically.
 
-*(Add a screenshot of your invoice flagging UI here: `![](images/flag_invoice_prediction.png)`)*
+*(Add a screenshot of your invoice flagging UI here: 
+![](images/flag_invoice_prediction.png)`)*
 
 ---
 
