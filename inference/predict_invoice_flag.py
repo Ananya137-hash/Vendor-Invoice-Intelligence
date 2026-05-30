@@ -1,9 +1,13 @@
 
+import os
+
 import joblib
 import pandas as pd
 
-MODEL_PATH = r"models\predict_flag_invoice.pkl"
+#MODEL_PATH = r"models\predict_flag_invoice.pkl"
 #SCALER_PATH = r"models\scaler.pkl"
+current_dir = os.path.dirname(os.path.abspath(__file__))
+MODEL_PATH = os.path.join(current_dir, "..", "models", "predict_flag_invoice.pkl") # Use your specific file name here
 
 def load_model(model_path: str = MODEL_PATH):
     """

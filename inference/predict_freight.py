@@ -1,8 +1,14 @@
 import joblib
 import pandas as pd
+import os
 
-MODEL_PATH = r"models\predict_freight_model.pkl"
+#MODEL_PATH = r"models\predict_freight_model.pkl"
+# Build an absolute path dynamically
+# 1. Find the exact folder this script lives in (the 'inference' folder)
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
+# 2. Go up one level (..), then into the 'models' folder, then to the file
+MODEL_PATH = os.path.join(current_dir, "..", "models", "predict_freight_model.pkl")
 
 def load_model(model_path: str = MODEL_PATH):
     """
