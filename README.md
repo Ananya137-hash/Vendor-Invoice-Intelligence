@@ -1,5 +1,5 @@
 # Vendor Invoice Intelligence System  
-**Freight Cost Prediction & Invoice Risk Flagging**
+**Freight Cost Prediction & Invoice Risk Flagging**  📌
 
 ## 📌 Table of Contents
 - [Project Overview](#project-overview)
