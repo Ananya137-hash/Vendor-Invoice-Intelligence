@@ -36,8 +36,9 @@ Built entirely with Python, this project bridges the gap between raw database re
 - Freight is a major, fluctuating component of landed cost.
 - Accurate early predictions improve procurement planning, budgeting, and leverage during vendor negotiations.
 
-*(Add a screenshot of your freight prediction UI here: 
-![](images/freight_prediction.pngimages)')*
+*(Add a screenshot of your freight prediction UI here:
+![](images/freight_prediction.png)')*
+
 ---
 
 ### 2. Invoice Risk Flagging (Classification)
