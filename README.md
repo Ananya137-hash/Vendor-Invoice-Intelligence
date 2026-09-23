@@ -84,9 +84,9 @@ I utilized statistical testing (such as t-tests via SciPy) to mathematically con
 ## 🤖 <a id="models-used"></a>Models Used
 
 ### Regression (Freight Prediction)
-- Linear Regression (Baseline)
+- **Linear Regression (Baseline) (Final Selected Model)**
 - Decision Tree Regressor
-- **Random Forest Regressor (Final Selected Model)**
+- Random Forest Regressor 
 
 ### Classification (Invoice Flagging)
 - Logistic Regression (Baseline)
